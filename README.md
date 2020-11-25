@@ -8,11 +8,16 @@ Node 12.10.0
 npm 6.10.3
 ~~~
 
-# Endpoint /resta
+## Endpoint /resta
 
-Para el servicio se debe consulta a traves de metodo POST la URl:  http://<dominio>/resta
+Para el servicio se debe consulta a traves de metodo POST la URl.
 
-## Input
+Ejemplo:
+~~~
+http://localhost/resta
+~~~
+
+### Input
 Se espera como entrada un body JSON con dos (2) parámetros: 'a' y 'b', los cuales pueden ser número o tipo caracter.
 
 Ejemplo 1:
@@ -47,10 +52,10 @@ Ejemplo 4:
 }
 ~~~
 
-## Output
+### Output
 Se pueden generar 2 resultados.
 
-### Status 200
+#### Status 200
 Devuelve un número en formato de texto.
 
 Ejemplo:
@@ -67,7 +72,7 @@ El resultado es:
     16
 ~~~
 
-### Status 400
+#### Status 400
 
 Si alguno de los parámetros 'a' y 'b' no se encuentran en el body de la solicitud o no son números válidos se devuelve un mensaje de error con status de error http 400.
 
@@ -76,6 +81,10 @@ Ejemplo:
 Error en datos
 ~~~
 
-# Endpoint /coverage
+## Endpoint /coverage
 
-Se puede visualizar la cobertura de la prueba desde la URl:  http://<dominio>/coverage
+Se puede visualizar la cobertura de la prueba desde la URl.
+Ejemplo:
+~~~
+http://localhost/coverage
+~~~
