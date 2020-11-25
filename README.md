@@ -7,6 +7,7 @@ La operación resultante es equivalente a: "X = a - b"
 Node 12.10.0
 npm 6.10.3
 ~~~
+# Endpoint <dominio>/resta
 
 ## Input
 Se espera como entrada un JSON con dos (2) parámetros: 'a' y 'b', los cuales pueden ser número o tipo caracter.
@@ -71,3 +72,7 @@ Ejemplo:
 ~~~
 Error en datos
 ~~~
+
+# Endpoint /coverage
+
+Se puede visualizar la cobertura de la prueba desde la URl:  http://<dominio>/coverage
