@@ -84,6 +84,7 @@ Error en datos
 ## Endpoint /coverage
 
 Se puede visualizar la cobertura de la prueba desde la URl.
+
 Ejemplo:
 ~~~
 http://localhost/coverage
