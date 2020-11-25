@@ -7,6 +7,7 @@ La operación resultante es equivalente a: "X = a - b"
 Node 12.10.0
 npm 6.10.3
 ~~~
+
 # Endpoint /resta
 
 Para el servicio se debe consulta a traves de metodo POST la URl:  http://<dominio>/resta
