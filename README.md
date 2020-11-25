@@ -1,4 +1,4 @@
-# Calcsuma
+# CalcResta
 Micro-servicio simple que resta dos variables.
 La operación resultante es equivalente a: "X = a - b"
 
