@@ -6,6 +6,8 @@ let app = express();
 
 app.use(express.json());
 
+app.use( '/coverage',express.static('./coverage/lcov-report/'));
+
 app.use('/resta', require('./routes/resta'));
 
 
